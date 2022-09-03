@@ -43,22 +43,28 @@ public class Employee {
 
 	public static void main(String[] args) {
 		Employee e = new Employee();                                    
-		System.out.println("Question 1");
+		
 		e.getDetails();
 		System.out.println();
-		System.out.println("Question 2");
+		
 		e.display();
 		System.out.println();
-		System.out.println("Question 3");
+		e.salary(1000,1000,10000);
+		System.out.println();
+		
 		System.out.println("Method overloading");
 		e.salary(1000,1000,10000);
 		e.salary(1000.7f,1000.6f,10000.3f);
 		System.out.println();
+		
 		System.out.println("Method overriding");
 		Salary s=new Salary();
 		s.salary(10,20,30);
-		//System.out.println("Question 4 - Super");
-		//s.salary(1000,1000,34000);
+		
+		System.out.println();
+		System.out.println("Super");
+		Engineer e1 = new Engineer();
+		e1.salary(1000,1000,34000);
 		//System.out.println();
 		//Salary s1=new Salary();
 		//s1.salary(1,2,3);
@@ -77,6 +83,15 @@ class Salary extends Employee{
 		salary=hra+ta+ba;
 		System.out.println("Salary(In subclass): "+salary);
 		//super.salary(hra,ta,ba);
+	}
+	
+}
+
+class Engineer extends Employee {
+	void salary(int hra,int ta,int ba) {
+		
+		
+		super.salary(hra,ta,ba);
 	}
 	
 }

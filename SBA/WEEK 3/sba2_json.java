@@ -63,20 +63,20 @@ public class sba2_json {
 					String dob = (String)obj.get("dob");
 					long gender = (long)obj.get("gender");
 					
-					HSSFRow r1 = st.createRow(i+1);
+					HSSFRow r1 = st.createRow(j+1);
 					
-					r.createCell(0).setCellValue("id");
-					r.createCell(1).setCellValue("name");
-					r.createCell(2).setCellValue("email");
-					r.createCell(3).setCellValue("password");
-					r.createCell(4).setCellValue("about");
-					r.createCell(5).setCellValue("token");
-					r.createCell(6).setCellValue("country");
-					r.createCell(7).setCellValue("location");
-					r.createCell(8).setCellValue("lng");
-					r.createCell(9).setCellValue("lat");
-					r.createCell(10).setCellValue("dob");
-					r.createCell(11).setCellValue("gender");
+					r1.createCell(0).setCellValue(id);
+					r1.createCell(1).setCellValue(name);
+					r1.createCell(2).setCellValue(email);
+					r1.createCell(3).setCellValue(password);
+					r1.createCell(4).setCellValue(about);
+					r1.createCell(5).setCellValue(token);
+					r1.createCell(6).setCellValue(country);
+					r1.createCell(7).setCellValue(location);
+					r1.createCell(8).setCellValue(lng);
+					r1.createCell(9).setCellValue(lat);
+					r1.createCell(10).setCellValue(dob);
+					r1.createCell(11).setCellValue(gender);
 					
 				}
 				
@@ -93,3 +93,4 @@ public class sba2_json {
 	}
 
 }
+

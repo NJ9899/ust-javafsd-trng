@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<style>
+.left{
+	margin-top: 30px;
+}
+
+.right{
+	margin-top: -210px;
+	margin-left: 350px;
+}
+select{
+	width: 34%;
+	border-radius: 5px;
+	border-width: 2px;
+}
+body{
+	margin-left: 400px;
+	font-family: sans-serif;
+}
+input{
+	border-radius: 5px;
+}
+input[type=radio]{
+	border-radius: 5px;
+	margin-left: 30px;
+}
+button{
+	background-color: #0256E7;
+	color: white;
+	width: 60%;
+	display: block;
+	border-style: none;
+	border-radius: 50px;
+	font-size: 20px;
+	
+}
+</style>
+</head>
+<body>
+<h1>Registration</h1>
+<div class="left">
+	<b>Full Name:</b><br>
+	<input type="text" placeholder="Please enter your name" >
+	<br><br>
+	<b>Email:</b><br>
+	<input type="email" placeholder="Please enter your email" >
+	<br><br>
+	<b>Country:</b><br>
+	<input type="text" placeholder="Please enter your country" >
+	<br><br>
+	<b>Password:</b><br>
+	<input type="password" placeholder="Please enter your password" >
+	
+</div>
+
+<div class="right">
+	<b>Position you are applying for:</b><br>
+	<select> 
+		<option>--Please select--</option>
+		<option>HR</option>
+		<option>SALES</option>
+	</select>
+	<br><br>
+	<b>Phone number:</b><br>
+	<input type="number" placeholder="Please enter your mobile number" >
+	<br><br>
+	<b>City:</b><br>
+	<input type="text" placeholder="Please enter your city" >
+	<br><br>
+	<b>Confirm password:</b><br>
+	<input type="password" placeholder="Please enter your password again" >
+	
+</div>
+<br><br>
+<b>Gender:<br>
+<input type="radio"> <b>Male </b><input type="radio"> <b>Female </b><input type="radio"> <b>Other </b><input type="radio"> <b>Prefer not to say </b>
+<br><br>
+<button>Next Step</button>
+</body>
+</html>

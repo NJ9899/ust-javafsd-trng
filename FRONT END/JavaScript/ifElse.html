@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>if-else example</title>
+<script type="text/javascript">
+	function largest() {
+		var a=document.getElementById("a").value
+		var b=document.getElementById("b").value
+		if(a>b)
+			alert(a+" is larger")
+		else
+			alert(b+" is larger")
+	}
+</script>
+</head>
+<body>
+
+<input type="number" placeholder="Enter a number" id="a" ><br><br>
+<input type="number" placeholder="Enter a number" id="b" ><br><br>
+
+<input type="button" value="Submit" onclick="largest()">
+
+</body>
+</html>

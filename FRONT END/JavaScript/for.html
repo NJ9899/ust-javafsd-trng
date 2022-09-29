@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>for example</title>
+
+<script type="text/javascript">
+	function display() {
+		var limit = document.getElementById("range").value
+		for(i=1;i<=limit;i++)
+			document.write(i+" ")
+	}
+</script>
+
+</head>
+<body>
+
+<input type="number" id="range" placeholder="Enter a range"><br><br>
+<input type="button" onclick="display()" value="Submit">
+
+</body>
+</html>

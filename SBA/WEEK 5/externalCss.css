@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1{
+	color: #ff8000;
+}
+
+.class1{
+	color: red;
+}
+
+.class2{
+	color: green;
+}
+
+li{
+	color: #8000ff;
+}
+
+body {
+	background-color: #6a958c
+}

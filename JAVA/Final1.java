@@ -20,7 +20,7 @@ public class Final1 extends Super1{
 class Super1{
 	final int z=10;
 	final void display() {
-		System.out.println("In Display");
+		System.out.println("In Display updated");
 	}
 	void display(int x) {
 		System.out.println("*");
